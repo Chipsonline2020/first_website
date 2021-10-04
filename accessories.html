@@ -2,69 +2,102 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-        <style>
-            table, th, td {
-                border: 1px solid black;
-            }
-        </style>
+        
 			<meta charset="utf-8">
 		<title> The Raging Socks</title>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+ <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css" integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN"
+        crossorigin="anonymous">        
+        
 	</head>
 
 <body>
 	<header>
-		
-		<nav>
-            <ul>
-			<li>
-			<a href="index.html">Homepage</a>
-                    </li>
-                    <li>
-                        <a href="about_us.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="apparel.html">Apparel</a>
-                    </li>
-                    <li>
-                        <a href="accessories.html">Accessories</a>
-                    </li>
-                    <li>
-                        <a href="tour_dates.html">Tour Dates</a>
-                    </li>
-                    <li> 
-                        <a href="sponsors.html">Sponsors</a>
-                    </li>
-                </ul>
-            </nav>
-            <h1>Accessories</h1>
-        </header>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
 
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">The Raging Socks</a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+
+                 <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Homepage</a>
+                </li>
+
+                 <li class="nav-item">
+                    <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="apparel.html">Apparel</a>
+                </li>
+
+                <li class="nav-item">
+                 <a class="nav-link" href="accessories.html">Accessories</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="tour_dates.html">Tour Dates</a>
+                </li>
+
+                <li class="nav-item">
+                 <a class="nav-link" href="sponsors.html">Sponsors</a>
+             </li>
+         </ul>
+     </div>
+ </div>
+            </nav>
+        </header>
+        <div class="container">
+<h1>Accessories</h1>
 <p> Check out the newest drops of our accessories. They're whacky and wild but most importantly they're angry. And socks, we can't forget the socks. Socks are a must, but what do you expect from a band called The Angry Socks, huh? A bunch of cute fluffy kittens, well we do love them but this is all about angry socks and rock n' roll! Here we strive to bring you the highest quality materials so you can have the highest quality jam sessions, just like we do. We jam so hard Rufus came back and kicked out Bill and Ted. No more Wild Stallion, it is only The Angry Socks. Jack never has to tell us to crank it up to 11 because we never go lower than 12. Buy our stuff today and you’ll be able to get numerous noise complaint and cease and desist orders from your local police officers too. Party on Wayne!
 
 
 
   </p>
 
-<table>
+<table class="table table-dark">
+    <thead>
     <tr>
-        <th>Keychains</th>
-        <th>Pics and Drumsticks</th>
-        <th>Flags</th>
+        <th scope="col">Keychains</th>
+        <th scope="col">Pics and Drumsticks</th>
+        <th scope="col">Flags</th>
     </tr>
+</thead>
+<tbody>
     <tr>
         <td>&#36; 10</td>
         <td>&#36; 20</td>
         <td>&#36; 50</td>
     </tr>
+</tbody>
 </table>
 
-<img src="images/sock_keychain.jpg" alt="Keychain" id="blue">
+<img src="images/sock_keychain.jpg" alt="Keychain">
 <img src="images/guitar_pics.jpg" alt="Guitar Pics" id="gold">
 <img src="images/flag.jpg" alt="Flag" id="blue">
 <footer>
         Contact Us: <br> Phone: 808-867-5309 <br>Email: real.email@website.com</footer>
+        </div><!--ended container-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous">
+</script>
+
 </body>
 
 

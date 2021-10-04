@@ -2,45 +2,69 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-        <style>
-            table, th, td {
-                border: 1px solid black;
-            }
-        </style>
 		<meta charset="utf-8">
 		<title>The Raging Socks</title>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+ <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css" integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN"
+        crossorigin="anonymous">
 
 	</head>
 
     <body>
         <header>
-            
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Homepage</a>
-                    </li>
-                    <li>
-                        <a href="about_us.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="apparel.html">Apparel</a>
-                    </li>
-                    <li>
-                        <a href="accessories.html">Accessories</a>
-                    </li>
-                    <li>
-                        <a href="tour_dates.html">Tour Dates</a>
-                    </li>
-                    <li> 
-                        <a href="sponsors.html">Sponsors</a>
-                    </li>
-                </ul>
-            </nav>
-            <h1>Apparel</h1>
-        </header>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
 
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">The Raging Socks</a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+
+                 <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Homepage</a>
+                </li>
+
+                 <li class="nav-item">
+                    <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="apparel.html">Apparel</a>
+                </li>
+
+                <li class="nav-item">
+                 <a class="nav-link" href="accessories.html">Accessories</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="tour_dates.html">Tour Dates</a>
+                </li>
+
+                <li class="nav-item">
+                 <a class="nav-link" href="sponsors.html">Sponsors</a>
+             </li>
+         </ul>
+     </div>
+ </div>
+            
+            </nav>
+            </header>
+<div class="container">
+    <div class="alert alert-danger" role="alert">Check our our recent Merch! Disaster Area Merch just in!</div>
+    <h1>Apparel</h1>
         <p>This page has all of our current apparel options. If you would like 
         us to add anything to this please let us know! If you have designs for 
         clothes that fit our bands style we will happily add them to our list 
@@ -62,7 +86,7 @@
         </p>
 
 
-        <table>
+        <table class="table table-dark table-hover table-striped" >
             <tr>
                 <th class="blankspace"></th>
                 <th>Socks</th>
@@ -82,20 +106,25 @@
                 <td>&#36;60</td>
             </tr>
         </table>
-                <img src="images/bull_socks.png" alt="Bull Design" id="blue">
-                <img src="Images/hurricane_socks.png" alt="Hurricane Design"id="gold">
-                <img src="Images/bullsweater.png" alt="Hurricane Design"id="blue">
-                <img src="Images/hurricane_sweatshirt.png" alt="Hurricane Design"id="gold">
-                <img src="Images/bull_sweatpants.png" alt="Bull Design"id="blue">
-                <img src="Images/hurricane_sweatpants.png" alt="Hurricane Design"id="gold">
-                <img src="Images/disasterareasock2.png" alt="Disaster Area Socks" id="blue"><!--added by Matt W-->
-                <img src="Images/disasterarea_sweater.png" alt="Disaster Area Sweater" id="gold"><!--added by Matt W-->
+                <img src="images/bull_socks.png" alt="Bull Design"  style="width:200px;">
+                <img src="Images/hurricane_socks.png" alt="Hurricane Design"  style="width:200px;">
+                <img src="Images/bullsweater.png" alt="Hurricane Design"  style="width:200px;">
+                <img src="Images/hurricane_sweatshirt.png" alt="Hurricane Design" style="width:200px;">
+                <img src="Images/bull_sweatpants.png" alt="Bull Design" style="width:200px;">
+                <img src="Images/hurricane_sweatpants.png" alt="Hurricane Design" style="width:200px;">
+                <img src="Images/disasterareasock2.png" alt="Disaster Area Socks" style="width:200px;"><!--added by Matt W-->
+                <img src="Images/disasterarea_sweater.png" alt="Disaster Area Sweater" style="width:200px;"><!--added by Matt W-->
+                
+                
+                
+                
 
-                
-                
-                
-
-        <br>
-        <footer>Contact Us: <br> Phone: 808-867-5309 <br>Email: real.email@website.com</footer>
+            <footer>Contact Us: <br> Phone: 808-867-5309 <br>Email: real.email@website.com</footer>
+         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous">
+</script>
+       
     </body>
 </html>

@@ -4,42 +4,70 @@
 	<head>
 			<meta charset="utf-8">
 		<title> The Raging Socks</title>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+ <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css" integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN"
+        crossorigin="anonymous">
 
 	</head>
 
 <body>
 	<header>
-		
-		<nav>
-			<ul>
-			<li>
-			<a href="index.html">Homepage</a>
-                    </li>
-                    <li>
-                        <a href="about_us.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="apparel.html">Apparel</a>
-                    </li>
-                    <li>
-                        <a href="accessories.html">Accessories</a>
-                    </li>
-                    <li>
-                        <a href="tour_dates.html">Tour Dates</a>
-                    </li>
-                    <li> 
-                        <a href="sponsors.html">Sponsors</a>
-                    </li>
-                </ul>
-            </nav>
-            <h1>Tour Dates</h1>
-        </header>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
 
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">The Raging Socks</a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+
+                 <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Homepage</a>
+                </li>
+
+                 <li class="nav-item">
+                    <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="apparel.html">Apparel</a>
+                </li>
+
+                <li class="nav-item">
+                 <a class="nav-link" href="accessories.html">Accessories</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="tour_dates.html">Tour Dates</a>
+                </li>
+
+                <li class="nav-item">
+                 <a class="nav-link" href="sponsors.html">Sponsors</a>
+             </li>
+         </ul>
+     </div>
+ </div>
+            </nav>
+        </header>
+        <div class="container">
+<h1>Tour Dates</h1>
 <p> "Sock It to 'Em!"</p>
 Coming to a city near you!
-
-<ol>
+ <div class="row">   
+        <div class= "col-md-6">
+<ul>
 <li>
 	<p> Honolulu, Hawaii 9&#47;16&#47;2021</p>
 </li>
@@ -79,6 +107,10 @@ Coming to a city near you!
 	<li>
 	<p> Cincinnati, Ohio 9&#47;28&#47;2021</p>
 	</li>
+</ul>
+	</div>
+<div class="col-md-6">
+<ul>
 	<li>
 	<p> New York, New York 9&#47;29&#47;2021</p>
 	</li>
@@ -110,14 +142,25 @@ Coming to a city near you!
 	<li>
 	<p>Tokyo, Japan 10&#47;08&#47;2021</p>
 	</li>
-	<!--end additions-->
-</ol>
-<video width = "320" height = "240" controls>
+	</ul>
+</div>
+</div>
+<a href="https://www.youtube.com/watch?v=HIcSWuKMwOw" class="btn btn-warning" >Roll on back Home</a>
+<div class="row">
+<div class="col-6">
+<video width = "320" height = "240" controls >
 	<source src="videos/seth.mp4" type="video/mp4">
 		Your browser may not support the video tag.
 </video>
-
+</div>
+</div>
 <br>
 	<footer>Contact Us: <br> Phone: 808-867-5309 <br>Email: real.email@website.com</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous">	
+	</script>
+		
     </body>
 </html>

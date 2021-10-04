@@ -19,47 +19,77 @@ What do ya mean not the monkey from nick?
 	<head>
 		<meta charset="utf-8">
 		<title>The Raging Socks</title>
-        <!--inserting css internal and external-->
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <style>
-            footer {
-                font-family: fantasy;
-            }
-            
-        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+ <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css" integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN"
+        crossorigin="anonymous">
 	</head>
 
     <body>
         <header>
-            
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
 
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Homepage</a>
-                    </li>
-                    <li>
-                        <a href="about_us.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="apparel.html">Apparel</a>
-                    </li>
-                    <li>
-                        <a href="accessories.html">Accessories</a>
-                    </li>
-                    <li>
-                        <a href="tour_dates.html">Tour Dates</a>
-                    </li>
-                    <li> 
-                        <a href="sponsors.html">Sponsors</a>
-                    </li>
-                </ul>
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">The Raging Socks</a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+
+                 <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Homepage</a>
+                </li>
+
+                 <li class="nav-item">
+                    <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="apparel.html">Apparel</a>
+                </li>
+
+                <li class="nav-item">
+                 <a class="nav-link" href="accessories.html">Accessories</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="tour_dates.html">Tour Dates</a>
+                </li>
+
+                <li class="nav-item">
+                 <a class="nav-link" href="sponsors.html">Sponsors</a>
+             </li>
+         </ul>
+     </div>
+ </div>
             </nav>
-            <h1>The Raging Socks</h1>
-            <h2 style="text-decoration: underline;">Honolulu's Angriest Argyle</h2>
-            <img src="images/angry_argyle.jpg" alt="New Album Cover" id="blue">
+            
         </header>
-
+<div class="container">
+    <h1>The Raging Socks</h1>
+            <h2>Honolulu's Angriest Argyle</h2>
+            <div class="alert alert-danger" role="alert">Check our our <a href="tour_dates.html" class="alert-link">tour dates!</a>See when the Socks are in your Locale</div>
+            <div class="row">
+                <div class="col-md-6">
+            <img src="images/angry_argyle.jpg" alt="New Album Cover" id="blue" style="width:400px;">
+        </div>
+        <div class="col-md-6">
+            <img src="images/flag.jpg" alt="Flag" Style="width: 400px;">
+            </div>
+        </div>
+        <div class="row">   
+        <div class= "col-md-6">
         <p>
             Welcome to our homepage! Above you can see the picture on the cover 
             of our newest album called the &#34;Broken Unbreakables&#34;. This 
@@ -68,16 +98,32 @@ What do ya mean not the monkey from nick?
             doesn't work how we want. Just like the lifetime warranty on the 
             socks which obviously have a hole in them.
         </p>
+    </div>
+        <div class= "col-md-6">
         <p>
             Besides our newest album, you can also find our tour dates, apparel, 
             accessories, sponsors, and just a little bit more about us on the 
             links at the top of the page. Thank you for supporting our band and 
             we hope to see you at one of our upcoming concerts.
         </p>
-        <p>
-            
-        </p>
+    </div>
+</div>
+        <a  href="https://www.youtube.com/watch?v=oR4uKcvQbGQ" class="btn btn-warning">Click To Rock</a>
+        <div class="card" style="width: 18rem;">
+  <img src="Images/rockon.gif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">ROCK ON</h5>
+    <p class="card-text">With the Greatest Socks On.</p>
+  </div>
+</div>
+        
 
         <footer>Contact Us: <br> Phone: 808-867-5309 <br>Email: real.email@website.com</footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous">
+</script>
+
     </body>
 </html>
