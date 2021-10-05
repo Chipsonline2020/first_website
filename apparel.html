@@ -1,9 +1,9 @@
 <!-- Peter is mainly responsible for this page -->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>The Raging Socks</title>
+    <head>
+        <meta charset="utf-8">
+        <title>The Raging Socks</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
         rel="stylesheet"
@@ -13,7 +13,7 @@
         href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css" integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN"
         crossorigin="anonymous">
 
-	</head>
+    </head>
 
     <body>
         <header>
@@ -106,18 +106,49 @@
                 <td>&#36;60</td>
             </tr>
         </table>
-                <img src="images/bull_socks.png" alt="Bull Design"  style="width:200px;">
-                <img src="Images/hurricane_socks.png" alt="Hurricane Design"  style="width:200px;">
-                <img src="Images/bullsweater.png" alt="Hurricane Design"  style="width:200px;">
-                <img src="Images/hurricane_sweatshirt.png" alt="Hurricane Design" style="width:200px;">
-                <img src="Images/bull_sweatpants.png" alt="Bull Design" style="width:200px;">
-                <img src="Images/hurricane_sweatpants.png" alt="Hurricane Design" style="width:200px;">
-                <img src="Images/disasterareasock2.png" alt="Disaster Area Socks" style="width:200px;"><!--added by Matt W-->
-                <img src="Images/disasterarea_sweater.png" alt="Disaster Area Sweater" style="width:200px;"><!--added by Matt W-->
-                
-                
-                
-                
+ <div id="carouselExampleFade" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-indicators">
+         <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="6" aria-label="Slide 7"></button>
+  </div>
+    <div class="carousel-item active" data-bs-interval="500">
+      <img src="images/bull_socks.png" alt="Bull Design" class="d-block w-100"  style="width:200px;">
+    </div>
+    <div class="carousel-item">
+      <img src="Images/bullsweater.png" alt="Hurricane Design" class="d-block w-100"  style="width:200px;">
+    </div>
+    <div class="carousel-item">
+      <img src="Images/hurricane_sweatshirt.png" alt="Hurricane Design" class="d-block w-100" style="width:200px;">
+    </div>
+    <div class="carousel-item">
+        <img src="Images/bull_sweatpants.png" alt="Bull Design" class="d-block w-100" style="width:200px;">
+    </div>
+    <div class="carousel-item">
+        <img src="Images/hurricane_sweatpants.png" alt="Hurricane Design" class="d-block w-100" style="width:200px;">
+    </div>
+    <div class="carousel-item">
+        <img src="Images/disasterareasock2.png" alt="Disaster Area Socks" class="d-block w-100" style="width:200px;">
+    </div>
+    <div class="carousel-item">
+        <img src="Images/disasterarea_sweater.png" alt="Disaster Area Sweater" class="d-block w-100" style="width:200px;"><!--added by Matt W-->
+    </div>
+  </div>
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+            
 
             <footer>Contact Us: <br> Phone: 808-867-5309 <br>Email: real.email@website.com</footer>
          </div>
